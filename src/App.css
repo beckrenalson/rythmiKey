@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.audioControls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.dark-theme {
+  background-color: unset;
+}
+
+.light-theme {
+  background-color: white;
+  color: black
+}
+
+/* .themeBtn {
+  
+} */
+
+.icon {
+height: 50px;
+}
